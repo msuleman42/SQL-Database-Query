@@ -14,9 +14,9 @@ import java.sql.PreparedStatement;
 
 public class JabberServer {
 	
-	private static String dbcommand = "jdbc:postgresql://127.0.0.1:5432/postgres";
-	private static String db = "postgres";
-	private static String pw = "password"; //password
+	private static String dbcommand = "";
+	private static String db = "";
+	private static String pw = "";
 
 	private static Connection conn;
 	
