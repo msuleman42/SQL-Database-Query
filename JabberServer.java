@@ -1,6 +1,4 @@
-package com.bham.fsd.assignments.jabberserver;
-
-// Munir Suleman 1348560
+// Munir Suleman
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -256,7 +254,7 @@ public class JabberServer {
 		return usersWithMostFollowers;
 	}
 	
-	// ------------------------------------------------------------------------------------------------------------------------
+	//------------------------------------------------------------------------------------------
 	
 	//This method return executes a query and returns a ResultSet
 	public static ResultSet executeThisQuery(String query) {
@@ -309,7 +307,7 @@ public class JabberServer {
 		return newJabID;
 	}
 	
-	// --------------------------------------------------------------------------------------------------------------------------
+	//  CODE BEYOND THIS POINT IS NOT WRITTEN BY ME------------------------------------------------------------------------------------
 	public JabberServer() {}
 	
 	public static void connectToDatabase() {
